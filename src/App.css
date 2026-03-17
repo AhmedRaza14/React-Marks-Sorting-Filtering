@@ -87,25 +87,24 @@ button.btn {
 button.btn:hover {
   background: #3730a3;
   border-color: rgba(255, 255, 255, 0.35);
-  opacity: 0.6;
 }
 
 @media (prefers-color-scheme: light) {
   .app {
     color: #213547;
   }
-
+  
   .card {
     background: rgba(250, 250, 250, 0.9);
     border-color: rgba(0, 0, 0, 0.12);
     box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
   }
-
+  
   .marks-table th,
   .marks-table td {
     color: #2b2b2b;
   }
-
+  
   button.btn {
     background: #064a16;
     color: white;
@@ -113,5 +112,10 @@ button.btn:hover {
 
   button.btn:hover {
     background: #3730a3;
+  }
+  .button.btn::after{
+    background: #3730a3;
+    opacity: 0.6;
+
   }
 }
